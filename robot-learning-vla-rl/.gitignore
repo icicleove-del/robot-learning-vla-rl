@@ -1,0 +1,50 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*.json
+
+# Dataset / model / run artifacts (never commit accidentally)
+/data/
+/data_local/
+/datasets/
+/models/
+/weights/
+/checkpoints/
+/outputs/
+/runs/
+/wandb/
+/tensorboard/
+/logs/
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.pkl
+*.mp4
+*.avi
+*.mov
+
+# OS / tooling
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.idea/
